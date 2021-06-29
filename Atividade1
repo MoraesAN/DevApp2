@@ -1,0 +1,42 @@
+void main() {
+  //import 'dart:math'; <<<<<<<<ERRO
+  
+  print("1 - Criar um programa onde ele recebe o nome, sobre nome, idade e endereço. Estes dados precisam ser impressos na tela\n");
+  
+  String nome = "Nathalia", sobrenome = "Moraes", endereco = "Onze de junho, Canoas/RS";
+  int idade = 26;
+  
+  print("Nome: " + nome +" "+ sobrenome + "\nEndereço: " + endereco);
+  print("Idade: $idade");
+  
+  print("\n2 - Criar um programa onde é definido o valor da entrada de uma sessão de cinema e depois multiplicado por 4 pessoas. O programa deverá imprimir na tela estas informações\n");
+  
+  double valorIngresso = 31.9;
+  int numPessoas = 4;
+  
+  print("Valor do ingresso: $valorIngresso");
+  print("Numero de ingressos: $numPessoas");
+  print("Valor total: ${valorIngresso*numPessoas}");
+
+print("\n3 - Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: Área = ((base maior + base menor) * altura) /2 \n");
+  
+  double baseMenor = 10, baseMaior = 30, altura = 40.4;
+  
+  print("Fórmula: Área = ((base maior + base menor) * altura) /2");
+  print("Área = (($baseMaior + $baseMenor) * $altura) /2");
+  print("Área = ${((baseMaior + baseMenor)* altura)/2}");
+  
+print("\n4. Faça um programa que calcule e mostre a área de um quadrado\n");
+  double lado = 3.5;
+  
+  print("Àrea do quadrado: ${lado*lado}");
+  //print("Àrea do quadrado: ${pow(lado,2)}"); <<<<<ERRO 
+  
+print("\n5 - Faça um programa que compare os nomes de pessoas e retorne o texto: É a mesma pessoa, do contrário, retorne o texto: Os nomes não conferem\n");  
+  
+  String nomeA = "Maria", nomeB = "João";
+  
+  (nomeA == nomeB) ? print("É a mesma pessoa") : print("Os nomes não conferem");
+  
+  
+}
