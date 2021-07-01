@@ -1,0 +1,19 @@
+void main() {
+  
+  print("Desenvolver um programa em Dart que calcule a média de 4 notas de um aluno. Verifique se a média for maior ou igual a 7 o aluno está aprovado e caso contrário Reprovado. Informe ainda o conceito de acordo com a tabela: A - 10 - 9, B - 8.9 - 8, C - 7.9 a 7, F - menor que 7\n");
+  
+  double notaUm = 0.7, notaDois = 9.9, notaTres = 9.2, notaQuatro = 8.0, resultado;
+  
+  resultado = (notaUm + notaDois + notaTres + notaQuatro)/4;
+  
+  if(resultado >= 9){
+    print("R: Nota = ${resultado.toStringAsPrecision(2)}; Aprovado - A");
+  }else if(resultado >= 8){
+    print("R: Nota = ${resultado.toStringAsPrecision(2)}; Aprovado - B");
+  }else if(resultado >= 7){
+    print("R: Nota = ${resultado.toStringAsPrecision(2)}; Aprovado - C");
+  }else {
+    print("R: Nota = ${resultado.toStringAsPrecision(2)}; Reprovado - F");
+  }
+
+}

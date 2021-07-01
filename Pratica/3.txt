@@ -1,0 +1,16 @@
+void main() {
+  print("Desenvolver um programa que receba três variáveis: a, b e c. Sabe-se que a = 2; b = 4; c = 5. \nCalcule as seguintes fórmulas:\n\na)calculo = a + b * c;");
+  
+  int a = 2, b = 4, c = 5;
+  
+  print("R: ${ a + b * c}\n");
+  
+  print("b)calculo 2 = b / a * c;");
+  
+  print("R: ${b/a*c}\n");
+
+  print("E mostre os resultados na tela e escreva se são iguais os resultados.");
+  
+  print("R: "+ ((a + b * c) == (b/a*c) ? "Resultados iguais." : "Resultados diferentes."));
+
+}

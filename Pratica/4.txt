@@ -1,0 +1,8 @@
+void main() {
+  print("Desenvolver um programa em Dart que calcule a média de duas notas de um aluno e verifique se a média é maior ou igual a 6 escreva 'Aprovado' e caso contrário 'Reprovado'");
+  
+  double notaUm = 6.7, notaDois = 2.9;
+  
+  print("R: ${((notaUm+notaDois)/2) >= 6 ? 'Aprovado': 'Reprovado'}");
+  
+}

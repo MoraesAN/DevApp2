@@ -1,0 +1,9 @@
+void main() {
+  
+  print("Desenvolver um programa em Dart que compare dois números e diga se o primeiro é maior, menor ou igual ao segundo número.\n");
+  
+  int primeiro = 3, segundo = 3;
+  
+  print("R: " +(primeiro > segundo ? "O primeiro é maior" : "O primeiro é menor ou igual ao segundo"));
+  
+}

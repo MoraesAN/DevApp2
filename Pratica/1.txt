@@ -1,0 +1,9 @@
+void main() {
+  
+  print("Desenvolver um programa em Dart que verifique se um número é positivo ou negativo. \n");
+  
+  int numero = -10;
+  
+  print("R: "+(numero >= 0 ? "Numero positivo." : "Numero Negativo."));
+  
+}
