@@ -5,7 +5,7 @@ void main() {
   int anos = 3;
   
   if(anos >= 1){
-    print("Agora pode comprar Kinder ovo - Salário ${(salario*1.4).toStringAsFixed(2)} reais");
+    print("Agora pode comprar Kinder ovo - Salário ${(salario*1.04).toStringAsFixed(2)} reais");
   }else {
     print("Funcionário com menos de 1 ano de empresa");
   } 
